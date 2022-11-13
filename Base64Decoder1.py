@@ -1,7 +1,7 @@
 # below function converts string to base64 output.
 import base64
 
-sample_string = "DevOps increase efficieny of operation"
+sample_string = "DevOps increases efficieny of operation"
 sample_string_bytes = sample_string.encode("ascii")
 
 base64_bytes = base64.b64encode(sample_string_bytes)
